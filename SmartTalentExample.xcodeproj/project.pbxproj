@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB3CB401EB698680018A4A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3CB3F1EB698680018A4A5 /* AppDelegate.swift */; };
+		CDB3CB451EB698680018A4A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB3CB431EB698680018A4A5 /* Main.storyboard */; };
+		CDB3CB471EB698680018A4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB3CB461EB698680018A4A5 /* Assets.xcassets */; };
+		CDB3CB4A1EB698680018A4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB3CB481EB698680018A4A5 /* LaunchScreen.storyboard */; };
+		CDB3CB521EB698D30018A4A5 /* PickPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3CB511EB698D30018A4A5 /* PickPhotoViewController.swift */; };
+		CDB3CB571EB69CFF0018A4A5 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3CB561EB69CFF0018A4A5 /* ImageUtils.swift */; };
+		CDB3CB591EB69E7C0018A4A5 /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3CB581EB69E7C0018A4A5 /* EditPhotoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDB3CB3C1EB698680018A4A5 /* SmartTalentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTalentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB3CB3F1EB698680018A4A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDB3CB441EB698680018A4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB3CB461EB698680018A4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB3CB491EB698680018A4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB3CB4B1EB698680018A4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB3CB511EB698D30018A4A5 /* PickPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickPhotoViewController.swift; sourceTree = "<group>"; };
+		CDB3CB561EB69CFF0018A4A5 /* ImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		CDB3CB581EB69E7C0018A4A5 /* EditPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB3CB391EB698680018A4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB3CB331EB698680018A4A5 = {
+			isa = PBXGroup;
+			children = (
+				CDB3CB3E1EB698680018A4A5 /* SmartTalentExample */,
+				CDB3CB3D1EB698680018A4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB3CB3D1EB698680018A4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3CB3C1EB698680018A4A5 /* SmartTalentExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB3CB3E1EB698680018A4A5 /* SmartTalentExample */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC9DA41EBA32A100DB1761 /* Utils */,
+				CDB3CB531EB698EF0018A4A5 /* ViewControllers */,
+				CDB3CB3F1EB698680018A4A5 /* AppDelegate.swift */,
+				CDB3CB431EB698680018A4A5 /* Main.storyboard */,
+				CDB3CB461EB698680018A4A5 /* Assets.xcassets */,
+				CDB3CB481EB698680018A4A5 /* LaunchScreen.storyboard */,
+				CDB3CB4B1EB698680018A4A5 /* Info.plist */,
+			);
+			path = SmartTalentExample;
+			sourceTree = "<group>";
+		};
+		CDB3CB531EB698EF0018A4A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3CB511EB698D30018A4A5 /* PickPhotoViewController.swift */,
+				CDB3CB581EB69E7C0018A4A5 /* EditPhotoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CDEC9DA41EBA32A100DB1761 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3CB561EB69CFF0018A4A5 /* ImageUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB3CB3B1EB698680018A4A5 /* SmartTalentExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB3CB4E1EB698680018A4A5 /* Build configuration list for PBXNativeTarget "SmartTalentExample" */;
+			buildPhases = (
+				CDB3CB381EB698680018A4A5 /* Sources */,
+				CDB3CB391EB698680018A4A5 /* Frameworks */,
+				CDB3CB3A1EB698680018A4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTalentExample;
+			productName = SmartTalentExample;
+			productReference = CDB3CB3C1EB698680018A4A5 /* SmartTalentExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB3CB341EB698680018A4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Enrique Bermúdez";
+				TargetAttributes = {
+					CDB3CB3B1EB698680018A4A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDB3CB371EB698680018A4A5 /* Build configuration list for PBXProject "SmartTalentExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB3CB331EB698680018A4A5;
+			productRefGroup = CDB3CB3D1EB698680018A4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB3CB3B1EB698680018A4A5 /* SmartTalentExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB3CB3A1EB698680018A4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB3CB4A1EB698680018A4A5 /* LaunchScreen.storyboard in Resources */,
+				CDB3CB471EB698680018A4A5 /* Assets.xcassets in Resources */,
+				CDB3CB451EB698680018A4A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB3CB381EB698680018A4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB3CB401EB698680018A4A5 /* AppDelegate.swift in Sources */,
+				CDB3CB521EB698D30018A4A5 /* PickPhotoViewController.swift in Sources */,
+				CDB3CB571EB69CFF0018A4A5 /* ImageUtils.swift in Sources */,
+				CDB3CB591EB69E7C0018A4A5 /* EditPhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDB3CB431EB698680018A4A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB3CB441EB698680018A4A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB3CB481EB698680018A4A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB3CB491EB698680018A4A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB3CB4C1EB698680018A4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB3CB4D1EB698680018A4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB3CB4F1EB698680018A4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTalentExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarttalent.SmartTalentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDB3CB501EB698680018A4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTalentExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarttalent.SmartTalentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB3CB371EB698680018A4A5 /* Build configuration list for PBXProject "SmartTalentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB3CB4C1EB698680018A4A5 /* Debug */,
+				CDB3CB4D1EB698680018A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB3CB4E1EB698680018A4A5 /* Build configuration list for PBXNativeTarget "SmartTalentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB3CB4F1EB698680018A4A5 /* Debug */,
+				CDB3CB501EB698680018A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB3CB341EB698680018A4A5 /* Project object */;
+}
